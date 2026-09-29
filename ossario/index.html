@@ -44,9 +44,7 @@
   <strong>Resumo:</strong> o jogo não pede cadastro, não pede login e não coleta
   seu nome, e-mail, telefone ou localização. O seu progresso fica guardado no
   próprio aparelho. Os únicos dados que saem do celular são os que a plataforma
-  de anúncios do Google precisa para exibir publicidade — e, como o jogo também
-  é jogado por crianças, essa publicidade é sempre
-  <strong>não personalizada</strong>.
+  de anúncios do Google precisa para exibir publicidade.
 </p>
 
 <h2>1. Dados guardados no seu aparelho</h2>
@@ -67,23 +65,22 @@
 <p>
   O jogo exibe anúncios por meio do <strong>Google AdMob</strong>: vídeos que
   você escolhe assistir em troca de prêmios e, em tablets, um banner no rodapé.
-  Nenhum anúncio interrompe uma partida. Como o público do Ossário inclui
-  crianças, cada requisição de anúncio é marcada como conteúdo para menores e
-  limitada ao nível adequado para todos os públicos. Na prática:
+  Nenhum anúncio interrompe uma partida. Para entregar a publicidade, medir o
+  seu desempenho e prevenir fraude, o SDK do Google processa:
 </p>
 <ul>
-  <li>
-    <strong>o identificador de publicidade do aparelho (Advertising ID) NÃO é
-    coletado.</strong> A permissão que daria acesso a ele foi removida do
-    aplicativo;
-  </li>
-  <li>os anúncios são <strong>não personalizados</strong> — não são escolhidos
-      com base em histórico ou interesses de quem joga;</li>
-  <li>o SDK do Google ainda processa o endereço IP (de forma aproximada, para
-      região e idioma do anúncio), informações técnicas do aparelho e do sistema
-      operacional, e dados de interação com o anúncio (exibição, toque), para
-      entregar a publicidade e prevenir fraude.</li>
+  <li>o <strong>identificador de publicidade do aparelho</strong> (Advertising
+      ID), que você pode redefinir ou excluir a qualquer momento nas
+      configurações do Android;</li>
+  <li>o endereço IP (de forma aproximada, para região e idioma do anúncio),
+      informações técnicas do aparelho e do sistema operacional;</li>
+  <li>dados de interação com o anúncio (exibição, toque).</li>
 </ul>
+<p>
+  Os anúncios podem ser <strong>personalizados</strong> com base nesse
+  identificador quando a lei e as suas configurações permitirem. Todo anúncio é
+  limitado a conteúdo adequado para adolescentes.
+</p>
 <p>
   Esses dados são tratados pelo Google conforme a política de privacidade dele.
   Consulte
@@ -116,20 +113,18 @@
 <h2>4. O que NÃO fazemos</h2>
 <ul>
   <li>Não pedimos cadastro, login, e-mail ou telefone.</li>
-  <li>Não coletamos o identificador de publicidade.</li>
   <li>Não coletamos localização precisa (GPS).</li>
   <li>Não acessamos contatos, fotos, microfone, câmera ou arquivos.</li>
   <li>Não vendemos dados a terceiros.</li>
-  <li>Não exibimos anúncios personalizados.</li>
   <li>Não temos servidor próprio: nada do que você faz no jogo é enviado para nós.</li>
 </ul>
 
-<h2>5. Crianças</h2>
+<h2>5. Crianças e adolescentes</h2>
 <p>
-  O público do Ossário <strong>inclui crianças</strong>, e o aplicativo segue a
-  Política para Famílias do Google Play: publicidade não personalizada, anúncios
-  limitados a conteúdo adequado para todos os públicos, e nenhuma coleta de
-  identificadores de publicidade.
+  O Ossário é destinado a <strong>maiores de 18 anos</strong> e não é
+  direcionado a crianças. O jogo tem baús de recompensa aleatória que podem ser
+  abertos com gemas, e as gemas podem ser compradas com dinheiro real; as chances
+  de cada baú estão à vista no jogo, antes da compra.
 </p>
 <p>
   O jogo não pede nem coleta dados pessoais de ninguém, de qualquer idade. Se
@@ -142,8 +137,10 @@
   <li><strong>Apagar tudo:</strong> desinstalar o aplicativo remove todos os
       dados guardados no aparelho. Para remover também a cópia do Backup
       Automático, use as configurações de backup da sua conta Google.</li>
-  <li><strong>Anúncios:</strong> as opções de anúncios do Android ficam em
-      <code>Configurações → Google → Anúncios</code>.</li>
+  <li><strong>Anúncios:</strong> para redefinir ou excluir o identificador de
+      publicidade, use <code>Configurações → Google → Anúncios</code>. Na
+      Europa e no Reino Unido, a escolha de consentimento pode ser revista a
+      qualquer momento.</li>
   <li><strong>Dúvidas, acesso ou reclamação:</strong> escreva para o e-mail
       abaixo.</li>
 </ul>
@@ -174,26 +171,26 @@
   <strong>Lumic Studio</strong>. The game requires no account and no sign-in. It
   does not collect your name, e-mail, phone number or location. Your progress is
   stored on your own device. The only data that leaves the phone is what
-  Google's advertising platform needs in order to serve ads — and because the
-  game's audience includes children, those ads are always
-  <strong>non-personalised</strong>.
+  Google's advertising platform needs in order to serve ads.
 </p>
 
 <h2>1. Advertising</h2>
 <p>
   The game shows ads through <strong>Google AdMob</strong>: videos you choose to
   watch in exchange for rewards and, on tablets, a bottom banner. No ad
-  interrupts a run. Every ad request is tagged as child-directed and ad content
-  is capped at the general-audience rating. In practice:
+  interrupts a run. To deliver ads, measure them and prevent fraud, Google's SDK
+  processes:
 </p>
 <ul>
-  <li><strong>the device Advertising ID is NOT collected</strong> — the
-      permission that would grant access to it has been removed from the app;</li>
-  <li>ads are <strong>non-personalised</strong>;</li>
-  <li>Google's SDK still processes approximate IP address, technical device and
-      OS information, and ad interaction data, in order to deliver ads and
-      prevent fraud.</li>
+  <li>the device <strong>Advertising ID</strong>, which you can reset or delete
+      at any time in your Android settings;</li>
+  <li>approximate IP address, technical device and OS information;</li>
+  <li>ad interaction data (impressions, taps).</li>
 </ul>
+<p>
+  Ads may be <strong>personalised</strong> based on that identifier where the law
+  and your settings allow. All ad content is capped at a teen rating.
+</p>
 <p>
   This is handled by Google under its own policies — see
   <a href="https://policies.google.com/technologies/partner-sites">How Google uses data from sites or apps that use our services</a>.
@@ -213,20 +210,18 @@
 <h2>3. What we do not do</h2>
 <ul>
   <li>No account, sign-in, e-mail or phone number is requested.</li>
-  <li>No Advertising ID is collected.</li>
   <li>No precise (GPS) location is collected.</li>
   <li>No access to contacts, photos, microphone, camera or files.</li>
   <li>No data is sold to third parties.</li>
-  <li>No personalised advertising.</li>
   <li>We run no server of our own: nothing you do in the game is sent to us.</li>
 </ul>
 
-<h2>4. Children</h2>
+<h2>4. Children and teenagers</h2>
 <p>
-  Ossário's audience <strong>includes children</strong>, and the app follows
-  Google Play's Families Policy: non-personalised advertising, ads limited to
-  general-audience content, and no collection of advertising identifiers. The
-  game asks for and collects no personal data from anyone, of any age. If you
+  Ossário is intended for <strong>players aged 18 and over</strong> and is not
+  directed at children. The game has random reward chests that can be opened
+  with gems, and gems can be bought with real money; each chest's odds are shown
+  in the game before purchase. The game asks for and collects no personal data from anyone, of any age. If you
   are a parent or guardian and believe a child provided personal data, contact
   us and we will delete it.
 </p>
@@ -257,13 +252,13 @@
 <h2>1. Publicidad</h2>
 <p>
   El juego muestra anuncios mediante <strong>Google AdMob</strong>: videos que
-  eliges ver a cambio de premios y, en tabletas, un banner inferior. Como el
-  público incluye a niños, cada solicitud de anuncio se marca como dirigida a
-  menores y se limita a contenido apto para todo público: <strong>no se recopila
-  el ID de publicidad</strong> y los anuncios son <strong>no personalizados</strong>.
-  El SDK de Google aún procesa la dirección IP aproximada, información técnica
-  del dispositivo y datos de interacción con el anuncio para entregarlo y
-  prevenir fraude. En el EEE y el Reino Unido se muestra el formulario de
+  eliges ver a cambio de premios y, en tabletas, un banner inferior. Para
+  entregar los anuncios, medirlos y prevenir fraude, el SDK de Google procesa el
+  <strong>ID de publicidad</strong> del dispositivo (que puedes restablecer o
+  eliminar en los ajustes de Android), la dirección IP aproximada, información
+  técnica del dispositivo y datos de interacción con el anuncio. Los anuncios
+  pueden ser <strong>personalizados</strong> cuando la ley y tus ajustes lo
+  permitan. En el EEE y el Reino Unido se muestra el formulario de
   consentimiento de Google (UMP).
 </p>
 
@@ -277,8 +272,10 @@
 
 <h2>3. Menores</h2>
 <p>
-  El público de Ossário <strong>incluye a niños</strong> y la aplicación sigue la
-  Política para Familias de Google Play. El juego no pide ni recopila datos
+  Ossário está dirigido a <strong>mayores de 18 años</strong> y no está dirigido
+  a niños. El juego tiene cofres de recompensa aleatoria que se abren con gemas,
+  y las gemas se pueden comprar con dinero real; las probabilidades de cada cofre
+  se muestran en el juego antes de la compra. El juego no pide ni recopila datos
   personales de nadie.
 </p>
 
